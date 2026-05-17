@@ -1,9 +1,9 @@
 #発展課題
 def fizz_buzz(n,x,y):
     if n % x == 0 and n % y ==0:
-        a = "FuzzBuzz"
+        a = "FizzBuzz"
     elif n % x == 0:
-        a = "Fuzz"
+        a = "Fizz"
     elif n % y == 0:
         a = "Buzz"
     else:
