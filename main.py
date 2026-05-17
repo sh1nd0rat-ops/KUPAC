@@ -126,7 +126,7 @@ if not((int(age) >= 10) or (int(age) <= 80)):
 else:
     print("お乗りいただけます")
 
-#while文によるループ
+#while文による繰り返し
 text = ""
 while text != "finish":
     text = input("finishと入力すんなよ？")
