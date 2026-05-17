@@ -188,7 +188,7 @@ def func1(name):
     print( f"Hello {name}, this is func1")
 
 def func2():
-    func1(" func2")
+    func1(" func2") 
 
 func2()#func2はfunc1を呼び出している．このように関数の中で別の関数を呼び出すことができる．
 import time
